@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Impara l'Inglese con Madrelingua | Corso Online</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-50">
+    <!-- Hero Section -->
+    <header class="bg-blue-600 text-white py-20">
+        <div class="container mx-auto px-4 text-center">
+            <h1 class="text-4xl font-bold mb-4">Impara l'Inglese con Insegnanti Madrelingua</h1>
+            <p class="text-xl mb-8">Corso online completo con supporto personalizzato 24/7</p>
+            <div class="bg-yellow-400 text-blue-900 font-bold py-2 px-4 rounded-full inline-block">
+                Prova Gratuita di 1 Mese
+            </div>
+        </div>
+    </header>
+
+    <!-- Features Section -->
+    <section class="py-16 container mx-auto px-4">
+        <div class="grid md:grid-cols-3 gap-8">
+            <div class="bg-white p-6 rounded-lg shadow-md">
+                <h3 class="text-xl font-bold mb-4">Lezioni Online</h3>
+                <p>Accesso illimitato a video lezioni e materiali didattici scaricabili</p>
+            </div>
+            <div class="bg-white p-6 rounded-lg shadow-md">
+                <h3 class="text-xl font-bold mb-4">Chat con Madrelingua</h3>
+                <p>Supporto immediato dai nostri insegnanti qualificati</p>
+            </div>
+            <div class="bg-white p-6 rounded-lg shadow-md">
+                <h3 class="text-xl font-bold mb-4">Guide Scaricabili</h3>
+                <p>Materiali di studio ottimizzati per l'apprendimento rapido</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="bg-gray-100 py-16">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-3xl font-bold mb-8">Inizia Oggi</h2>
+            <div class="bg-white p-8 rounded-lg shadow-lg max-w-md mx-auto">
+                <div class="text-4xl font-bold text-blue-600 mb-4">€14,90<span class="text-lg">/mese</span></div>
+                <ul class="text-left mb-8">
+                    <li class="mb-2">✓ Accesso completo alle lezioni</li>
+                    <li class="mb-2">✓ Chat illimitata con madrelingua</li>
+                    <li class="mb-2">✓ Guide e materiali scaricabili</li>
+                    <li class="mb-2">✓ Primo mese gratis</li>
+                </ul>
+                <button class="bg-blue-600 text-white py-3 px-8 rounded-full font-bold hover:bg-blue-700">
+                    Inizia la Prova Gratuita
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="py-16 container mx-auto px-4">
+        <h2 class="text-3xl font-bold text-center mb-12">Cosa Dicono i Nostri Studenti</h2>
+        <div class="grid md:grid-cols-3 gap-8">
+            <div class="bg-white p-6 rounded-lg shadow-md">
+                <div class="flex items-center mb-4">
+                    <img src="/api/placeholder/50/50" alt="Student" class="rounded-full mr-4">
+                    <div>
+                        <h4 class="font-bold">Marco Rossi</h4>
+                        <div class="text-yellow-400">★★★★★</div>
+                    </div>
+                </div>
+                <p>"Ho migliorato il mio inglese in soli 3 mesi. Gli insegnanti sono fantastici e sempre disponibili!"</p>
+            </div>
+            <div class="bg-white p-6 rounded-lg shadow-md">
+                <div class="flex items-center mb-4">
+                    <img src="/api/placeholder/50/50" alt="Student" class="rounded-full mr-4">
+                    <div>
+                        <h4 class="font-bold">Laura Bianchi</h4>
+                        <div class="text-yellow-400">★★★★★</div>
+                    </div>
+                </div>
+                <p>"La flessibilità del corso online mi ha permesso di studiare secondo i miei ritmi. Risultati incredibili!"</p>
+            </div>
+            <div class="bg-white p-6 rounded-lg shadow-md">
+                <div class="flex items-center mb-4">
+                    <img src="/api/placeholder/50/50" alt="Student" class="rounded-full mr-4">
+                    <div>
+                        <h4 class="font-bold">Giuseppe Verdi</h4>
+                        <div class="text-yellow-400">★★★★★</div>
+                    </div>
+                </div>
+                <p>"Il supporto dei madrelingua in chat è stato fondamentale per migliorare la mia pronuncia."</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form -->
+    <section class="bg-gray-100 py-16">
+        <div class="container mx-auto px-4 max-w-md">
+            <h2 class="text-3xl font-bold text-center mb-8">Contattaci</h2>
+            <form class="bg-white p-8 rounded-lg shadow-lg">
+                <div class="mb-4">
+                    <label class="block text-gray-700 text-sm font-bold mb-2" for="name">
+                        Nome
+                    </label>
+                    <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="name" type="text" required>
+                </div>
+                <div class="mb-4">
+                    <label class="block text-gray-700 text-sm font-bold mb-2" for="surname">
+                        Cognome
+                    </label>
+                    <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="surname" type="text" required>
+                </div>
+                <div class="mb-6">
+                    <label class="block text-gray-700 text-sm font-bold mb-2" for="email">
+                        Email
+                    </label>
+                    <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="email" type="email" required>
+                </div>
+                <button class="bg-blue-600 text-white font-bold py-2 px-4 rounded-full hover:bg-blue-700 w-full" type="submit">
+                    Invia
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-blue-900 text-white py-8">
+        <div class="container mx-auto px-4 text-center">
+            <p>© 2024 Corso di Inglese Online. Tutti i diritti riservati.</p>
+        </div>
+    </footer>
+</body>
+</html>
