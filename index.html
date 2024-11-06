@@ -7,9 +7,13 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
 </head>
 <body class="bg-gray-50">
-    <form action="https://app.getresponse.com/add_subscriber.html" method="POST">
-        <input type="hidden" name="campain_token" value="GVoxW">
-        <input type="hidden" name="start day" value="0">
+    <form action="https://app.getresponse.com/add_subscriber.html" method="POST" accept-charset="utf-8">
+<input type="text" name="name" placeholder="Il tuo nome" required>
+<input type="email" name="email" placeholder="La tua email" required>
+<input type="hidden" name="campaign_token" value="GVoxW">
+<input type="hidden" name="start_day" value="0">
+<input type="submit" value="Iscriviti">
+</form>
     <!-- Hero Section -->
     <header class="bg-blue-600 text-white py-20">
         <div class="container mx-auto px-8 md:px-16 lg:px-24 text-center">
